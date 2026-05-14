@@ -1,16 +1,21 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+inventory-demand-forecasting-holt-winters/
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── raw/
+│   │   └── sales_raw.csv
+│   └── processed/
+│       └── monthly_sales.csv
+├── src/
+│   ├── generate_sample_data.py
+│   ├── forecast_holt_winters.py
+│   └── evaluate_model.py
+├── notebooks/
+│   └── demand_forecasting_analysis.ipynb
+├── outputs/
+│   ├── charts/
+│   │   ├── sales_trend.png
+│   │   ├── forecast_result.png
+│   │   └── error_metrics.png
+│   └── report.md
+└── .gitignore
